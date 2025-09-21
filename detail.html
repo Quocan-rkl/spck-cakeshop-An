@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./font-awesome-6.5.1-pro-full/css/all.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="flex px-4 py-5">
+      <div class="flex-1 flex gap-3 items-center">
+        <img
+          src="https://banhsinhnhat.com/static/images/banhsinhnhat-logo.svg"
+          alt=""
+        />
+        <div
+          class="border border-gray-200 overflow-hidden flex pl-3 rounded-sm h-9"
+        >
+          <input
+            type="text"
+            placeholder="Tìm kiếm bánh sinh nhật"
+            class="focus-visible:outline-0"
+          />
+          <button class="bg-orange-500 px-3 text-white">
+            <i class="fa-light fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+      <div class="flex-1 flex gap-3 justify-end px-3 py-3">
+        <a href="#" class="btn flex flex-col items-center">
+          <i class="fa-regular fa-truck"></i>Giao Hàng
+        </a>
+
+        <a href="#" class="btn flex flex-col items-center">
+          <i class="fa-regular fa-heart"></i>Yêu Thích</a
+        ><a href="#" class="btn flex flex-col items-center">
+          <i class="fa-regular fa-circle-question"></i>Trợ Giúp</a
+        ><a href="#" class="btn flex flex-col items-center">
+          <i class="fa-regular fa-cart-shopping"></i>Giỏ Hàng</a
+        >
+      </div>
+    </div>
+
+    <ul
+      class="flex flex-1 gap-10 bg-gray-200 drop-shadow-xl px-10 text-xs py-3 text-inherit font-semibold"
+    >
+      <li href="#">DANH MỤC BÁNH</li>
+      <li href="#">BÁNH THEO VỊ</li>
+      <li href="#">BÁNH TRẺ EM</li>
+      <li href="#">BÁNH KỶ NIỆM</li>
+      <li href="#">BÁNH THEO GIÁ TIỀN</li>
+      <li href="#">BLOG</li>
+    </ul>
+    <div class="flex px-24 text-xs space-x-3 text-gray-500 py-7">
+      <p class="hover:text-pink-600">Trang chủ</p>
+      <i class="fa-light fa-chevron-right"></i>
+      <p class="hover:text-pink-600">Bánh Chocolate</p>
+      <i class="fa-light fa-chevron-right"></i>
+      <p>Bánh BlackForest Deluxe</p>
+    </div>
+    <div class="flex px-10 gap-5">
+      <div class="space-y-5">
+        <img
+          src="https://banhsinhnhat.com/media/cache/a4/c3/a4c300770e739aae604f1c71a3853531.jpg"
+          alt=""
+        />
+        <img
+          src="https://banhsinhnhat.com/media/cache/43/20/432038a9023a352259eaf1a57bec9c4f.jpg"
+          alt=""
+        />
+        <img
+          src="https://banhsinhnhat.com/media/cache/b9/50/b95032105afebf2b240860efe60af1a5.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://banhsinhnhat.com/media/cache/9c/6d/9c6dfa9070b436abcf103adf64c13788.jpg"
+          alt=""
+        />
+      </div>
+      <div class="px-8">
+        <h1 class="py-3">Bánh Black Forest Deluxe</h1>
+        <div class="flex items-center gap-1">
+          <p class="text-orange-400">5.0</p>
+          <div class="text-orange-400 text text-xs py-3">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-cyan-500 text-xs hover:text-pink-600">24 đánh giá</p>
+        </div>
+        <p class="text-3xl">560,000đ</p>
+        <p class="text-xs text-gray-500 py-3">Chưa bao gồm phí giao hàng</p>
+        <div class="flex text-cyan-500 text-xs hover:text-pink-600">
+          <div><i class="fa-light fa-chevron-down"></i></div>
+          <div>
+            <p class="">Xem chi tiết</p>
+          </div>
+        </div>
+        <p class="py-7 text-xs thicker">Chọn kích cỡ bánh:</p>
+        <div class="flex gap-3 py-11">
+          <div
+            class="border px-1 py-1 rounded hover:text-stone-50 hover:bg-slate-600"
+          >
+            16cm
+          </div>
+          <div
+            class="border px-1 py-1 rounded hover:text-stone-50 hover:bg-slate-600"
+          >
+            18cm
+          </div>
+        </div>
+        <div>
+          <div class="py-3">
+            <input
+              type="text"
+              class="border border-stone-500 px-3 rounded-md w-84 h-10 py-7"
+              placeholder="Lời nhắn trên bánh"
+            />
+          </div>
+          <div
+            class="border border-pink-600 rounded-md text-pink-600 text-center py-3 hover:bg-pink-600 hover:text-stone-50"
+          >
+            ĐĂNG KÝ TƯ VẤN
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
